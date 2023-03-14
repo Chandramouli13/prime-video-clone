@@ -1,0 +1,25 @@
+
+.image-container > img{
+    margin: 0 10px;
+    height: 300px;
+}  
+
+.image-container:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+
+.Box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Box>* {
+    flex: 1 1 200px;
+}
+
+@media  screen and (max-width: 480px) {
+    .image-container > img {
+        margin: 0 60px;
+    }
+}
